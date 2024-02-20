@@ -1,0 +1,62 @@
+.certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .certificates form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .certificates label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .certificates input[type="text"],
+  .certificates textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  .certificates button {
+    padding: 8px 16px;
+    background-color: #363030;
+    color:#ccc;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .certificates button:hover {
+    background-color: #747474;
+  }
+  
+  .certificates p.success-message,
+  .certificates p.error-message {
+    margin-bottom: 10px;
+  }
+  
+  .certificates a {
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .certificates a:hover {
+    background-color: #e0e0e0;
+  }
+  
